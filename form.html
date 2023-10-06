@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Forms</title>
+        
+    </head>
+    <body>
+        <form>
+            <label for="email"> email: </label>
+            <input type="text" name="email" placeholder="mariorossi@gmail.com">
+            <br>
+            <br>
+            <label for="password">password: </label>
+            <input for="text" name="password" placeholder="almeno 8 caratt.">
+            <br>
+            <br>
+            <label for="first_name">First name:</label>
+            <input type="text" name="first_name">
+            <br>
+            <label for="last_name">Last name:</label>
+            <input type="text" name="last_name">
+            <br>
+            <br>
+            <label>birthday date:</label>
+            <input type="date" 
+            name="birthday" 
+            min="1997-01-01" 
+            max="2030-12-31">
+            
+            <br>
+            <br>
+            <label for="plans">choose a plan:</label>
+            <select name="plans" id="plans">
+                <optgroup label="free">
+                    <option value="free">free plan</option>
+                </optgroup>
+                <optgroup>
+                    <option value="3_plans">$24,99 for 3 moths</option>
+                    
+                </optgroup>
+                
+                
+            </select>
+            <input type="checkbox" name="pro_plan">
+            <label for="pro_plan">Pro plan</label>
+            <br>
+            <br>
+            <label for="cc_numb">CC numb:</label>
+            <input type="text" name="cc_numb">
+            <br>
+            <br>
+            <label for="cvc">CVC:</label>
+            <input type="text" name="cvc">
+            <br>
+            <br>
+            <label for="exp_date">Expiration date:</label>
+            <input type="date" name="begin" 
+        placeholder="dd-mm-yyyy" value=""
+        min="1997-01-01" max="2030-12-31">
+            <br>
+            <br>
+            <label for="billing_address">Billing address:</label>
+            <input type="text" name="billing_address">
+            <br>
+            <br>
+            <button>Submit</button>
+        </forms>
+    </body>
+</html>
